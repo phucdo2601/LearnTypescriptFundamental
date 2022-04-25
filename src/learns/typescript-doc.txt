@@ -1,0 +1,8 @@
+chay file typescript(.ts) bang cau lenh nay: 
+-C1: ts-node ten-file.ts (phai cho dung thu muc chua ten file do)
+-C2: tsc ten-file.ts (phai cho dung thu muc chua ten file do) - cau lenh nay de typescrpit complie ra js
+Sau do chay cau lenh node ten-file.js (phai cho dung thu muc chua ten file do) - file js da dc tao khi complie xong
+
+
+Cac kieu du lieu trong typescript: string, number, ... 
+let va var: tu khoa dung de khai bao bien
