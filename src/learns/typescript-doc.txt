@@ -6,3 +6,5 @@ Sau do chay cau lenh node ten-file.js (phai cho dung thu muc chua ten file do) -
 
 Cac kieu du lieu trong typescript: string, number, ... 
 let va var: tu khoa dung de khai bao bien
+Cu phap khai bao mot bien trong ts:  
+    var (let) ten-bien : data-type = "gia tri cua bien voi kieu du lieu tuong ung"
