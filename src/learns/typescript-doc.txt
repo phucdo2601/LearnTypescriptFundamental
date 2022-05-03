@@ -206,3 +206,9 @@ Tai sao can ham co tham so:
         + static
 
     Dinh nghia class: thuoc tinh, phuong thuoc (constructor, getter, setter, ...)
+
+-Static trong lap trinh huong doi tuong: 
+    Static la mot trong nhung cong cu giup nguoi lap trinh phan quyen truy cap:
+        - mot gia tri trong class
+        - mot phuong thuc trong class
+        - Giup ta su dung thuoc tinh, phuong thuc cua mot class ma ko can khai bao mot instance moi 
