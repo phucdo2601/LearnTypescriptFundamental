@@ -212,3 +212,15 @@ Tai sao can ham co tham so:
         - mot gia tri trong class
         - mot phuong thuc trong class
         - Giup ta su dung thuoc tinh, phuong thuc cua mot class ma ko can khai bao mot instance moi 
+
+
+**Ke thua trong TypeScript:
+    ke thua la thua huong lai cac thuoc tinh va phuong thuc cua bo
+    - Tai sao phai dung ke thua:
+        + tiet kiem dung luong
+        + de thay doi hang loat 
+        + Cac class se xay dung co he thong
+
+    - extends la tu khoa dung de class con ke thua tu class cha
+    - super() su dung trong constructor de tai su dung lai code cua lop cha
+    - su dung super trong khi dung de ke thua: super.tenHam: copy y nguyen code trong class cha, co the viet them cac cau lenh khac
