@@ -13,7 +13,7 @@ class game_actor {
                 this.slogan = slogan;
                 this.blood = blood;
         }
-        
+
         chay() {
 
         }
