@@ -44,3 +44,23 @@ Ham (Function)
 
             return userInfo;
 
+Tai sao phai can ham trong ts:
+    - Giup su ly nhung thao tac nghiep vu chung ma khong can phai viet lai qua nhieu
+    - Mot nhom cac dong code dc dat mot cai ten de de quan ly
+
+Tai sao can ham co tham so:
+    - Giup linh dong truyen tham so dau vao de xu ly cac bussiness
+    - co kha nang thay doi cac gia tri trong Ham bang gia tri dat trong dau ngoac tron - cac gia tri nay goi la tham so
+    - viet tong quat, viet 1 lan, su dung nhieu lan
+    - Cu phap khai bao:     
+        + Phai co kieu du lieu tra ve
+        + Cac kieu du lieu nhan vao phai biet thuoc kieu nao
+        vd:
+            function functionName(x:dataType, y:dataType) : dataTypeReturn {
+                // Code Xu Ly
+            }
+    vd: 
+        function tinhTbc(x:number, y:number) : void {
+            var tbc =(x + y) /2;
+            console.log(`trung binh cong cua ${x} va ${y} la: ${tbc}`);
+        }
