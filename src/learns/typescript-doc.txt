@@ -237,3 +237,42 @@ Tai sao can ham co tham so:
         **public : cho truy cap o moi noi trong project
         **private : cxhi dc truy cap ben trong class khai bao phan tu do ma thoi, class con va ngoai class khong truy cap dc
         **protected : truy cap trong class va class con thua ke, khong truy cap dc o ben ngoai
+
+** Accessor trog typescript:
+    access: truy cap 
+    or: Nguoi
+    - Chi dinh cach nguoi dung truy cap (doi tuong) truy cap khac giao tiep voi du lieu trong OOP
+    - La cac ham de truy cap den doi tuong trong mot class
+    - Tai sao phai su dung ham de truy cap doi tuong?
+        + tang tinh bao mat cho code (viet public nameCourse: string === nameCourse: string: deu hieu la public het)
+    - tao ra 2 ham getter va setter
+    - getter ba setter se co cung ten voi nhau
+    - getter se lay gia tri ra
+    - setter se set gia tri moi vo ham
+    - cac thuoc tinh phai co them _ truoc ten thuoc tinh
+    vd: 
+        private _nameCommander: string;
+        constructor(_nameCommander: string) {
+        this._nameCommander = _nameCommander;
+    }
+
+    /**
+     * Getter nameCommander
+     * @return {string}
+     */
+	public get nameCommander(): string {
+		return this._nameCommander +" la gia tri tra ve khi truy cap qua getter";
+	}
+
+    /**
+     * Setter nameCommander
+     * @param {string} value
+     */
+	public set nameCommander(value: string) {
+		this._nameCommander = value;
+	}
+
+    *** Tom tat su dung accessor:
+        1. khai bao ten cua phan tu: private _ten : dataType (phai coi dau _ o dau ten thuocc tinh)
+        2. dung 2 ham getter ba setter:
+            Ten cua ham khong co _
