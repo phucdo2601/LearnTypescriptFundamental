@@ -64,3 +64,30 @@ Tai sao can ham co tham so:
             var tbc =(x + y) /2;
             console.log(`trung binh cong cua ${x} va ${y} la: ${tbc}`);
         }
+
+**Anonymous function: 
+    - La mot Function khong co ten
+    - VD: 
+        function(x:number, y:string) : string {
+
+        }
+    - Vi khong co ten nen phai khai bao mot bien de nhan gia tri cua func dong
+    Vd:     
+        var demo1 = function(x:number, y:string) : string {
+
+        }
+
+    Tai sao phai du dung Anonymous function: 
+        - tiet kiem bo nho -- binh thuong phai co hai khong nho: mot la khong gian nho cho bien, hai la khong gian nho cho ham
+        - It ton khong gian nho -- chi ton mot khong gian nho (lap trinh ham truyen thong phai ton toi hai khong gian nho)
+
+    -- Mot cach khai bao khac cua Anonymous function: 
+        /**
+        * Mot cach khai bao khac cua Anonymous function -- gan giong voi arrow function cua js
+        * tach khai bao tham so va kieu gia tri tra ve sang mot ben 
+        * Con lai ben trong xu ly nhu cu, moi thao tac nhu cu
+        */
+        let g_demo_anony_func: (x: number, y: string) => string = function(x,y) {
+
+            return `Chao ${y}, nam nay ban ${x} tuoi co phai khong ?`;       
+        }
