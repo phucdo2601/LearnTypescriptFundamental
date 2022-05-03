@@ -23,3 +23,24 @@ De Ep Kieu trong ts:
 
     Cach 2: as data-type
 
+
+Ham (Function)  
+    -Cac ham deu tra ve mot ket qua (Phu thuoc vao kieu du lieu ma minh khai bao) --Ngoai tru kieu void
+    -Giong cac ngon ngu cung khac, ta phai chi dinh kieu du lieu tu dau
+    -Cac kieu tra ve: string, number, array, any
+
+**De khai bao mot gia tri doi ben trong typescript(tinh den thoi diem 5/2022):
+    Cach 1:
+        - Khai bao mot bien co gia tri object de nhan cac doi tuong
+        Vd:
+            var userInfo : object;
+            userInfo = {
+                name: "phucdn",
+                hobbies: {
+                    hob1: "reading a book",
+                    hob2: "listening music"
+                }
+            }
+
+            return userInfo;
+
