@@ -224,3 +224,16 @@ Tai sao can ham co tham so:
     - extends la tu khoa dung de class con ke thua tu class cha
     - super() su dung trong constructor de tai su dung lai code cua lop cha
     - su dung super trong khi dung de ke thua: super.tenHam: copy y nguyen code trong class cha, co the viet them cac cau lenh khac
+
+** Access modifier trong ts:
+    la tap hop 3 tu khoa public, private, protected --> nho 3 tu khoa nay co the dat quyen truy cap cho cac thuoc tinh, phuong thuc
+    Tai sao phai dong goi du lieu:
+        - Dat quyen cho cac phan tu truy cap 
+        - khong cho truy cap linh tinh
+        - giup an nau, bao boc dl
+        - bao mat du lieu
+        - dong goi du lieu
+
+        **public : cho truy cap o moi noi trong project
+        **private : cxhi dc truy cap ben trong class khai bao phan tu do ma thoi, class con va ngoai class khong truy cap dc
+        **protected : truy cap trong class va class con thua ke, khong truy cap dc o ben ngoai
