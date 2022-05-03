@@ -23,23 +23,23 @@
 //     console.log(`trung binh cong cua ${x_func_b_01} va ${y_func_b_01} la: ${tbc_func_b_01}`);
 // }
 
-/**
- * Ham chua tham so dau vao
- */
-function tinhTbc(x:number, y:number) : void {
-    var tbc =(x + y) /2;
-    console.log(`trung binh cong cua ${x} va ${y} la: ${tbc}`);
-}
+// /**
+//  * Ham chua tham so dau vao
+//  */
+// function tinhTbc(x:number, y:number) : void {
+//     var tbc =(x + y) /2;
+//     console.log(`trung binh cong cua ${x} va ${y} la: ${tbc}`);
+// }
 
-/**
- * tinh ham khong tham so truyen vao
- */
-// tinh1();
+// /**
+//  * tinh ham khong tham so truyen vao
+//  */
+// // tinh1();
 
-/**
- * tinh ham co tham so truyen vao
- */
-tinhTbc(10,20);
-tinhTbc(100,99);
-tinhTbc(668,37);
+// /**
+//  * tinh ham co tham so truyen vao
+//  */
+// tinhTbc(10,20);
+// tinhTbc(100,99);
+// tinhTbc(668,37);
 

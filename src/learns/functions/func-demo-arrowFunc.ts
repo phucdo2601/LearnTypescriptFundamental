@@ -9,14 +9,14 @@
 /**
  * Arrow Function trong ts
  */
-var h = (x: number, y: number) : number => {
-    return x +y;
-}
+// var h = (x: number, y: number) : number => {
+//     return x +y;
+// }
 
-function tinh1(x:number, y: number) : number {
-    return x +y;
-}
+// function tinh1(x:number, y: number) : number {
+//     return x +y;
+// }
 
-console.log(h(22,17));
-console.log(tinh1(22,19));
+// console.log(h(22,17));
+// console.log(tinh1(22,19));
 

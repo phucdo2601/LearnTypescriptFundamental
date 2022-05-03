@@ -3,8 +3,8 @@
  * Khai bao enum trong ts: enum ten-bien{};
  */
 
-enum workingStatus {
-    "Free" = 10, "Working", "Accept-Order"
-};
+// enum workingStatus {
+//     "Free" = 10, "Working", "Accept-Order"
+// };
 
-console.log(workingStatus.Free);
+// console.log(workingStatus.Free);

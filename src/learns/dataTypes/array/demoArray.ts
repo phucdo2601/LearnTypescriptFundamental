@@ -2,8 +2,8 @@
 /**
  * Mang chu, mang so
  */
-
-//Mang chu
+/**
+ * //Mang chu
 var listStudent : string[] = [];
 listStudent = ["Do Ngoc Phuc", "Nguyen Pham Hoang Thai", "Khanh Tram", "Le Vinh"];
 // console.log(`Student at index 0 : ${listStudent[1]}`);
@@ -20,3 +20,4 @@ for (let i = 0; i < listNumber.length; i++) {
     
     
 }
+ */

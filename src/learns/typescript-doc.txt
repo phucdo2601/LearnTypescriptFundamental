@@ -99,3 +99,92 @@ Tai sao can ham co tham so:
         var h = (x: number, y: number) : number => {
             return x +y;
         }
+
+*********************************************************************OOP****************************************************************** 
+    Dinh nghia: la lap trinh dua tren doi tuong
+    Tai sao phai thuc hien lap trinh huong doi tuong
+        - Typescript la ngon ngu huong doi tuong
+        - De quan ly, bao tri, co the tai su dung dc code hieu qua
+        - Chuong trinh dc chia thanh cac doi tuong doc lap
+        - Du lieu dc che dau, bao boc boi cac phuong thuc truy xuat
+        - Cac doi tuong trao doi voi nhau thong qua cac Ham
+        - Chuong trinh dc thiet ke theo huong tu duoi len
+    
+    Cac khai niem co ban OOP trong ts: 
+        - Class (dung chung cho cac doi tuong su dung class nay)
+        - Instatnce
+        - property
+        - method
+
+    vd: Game xat thanh pho
+        - Doi tuong la ngoi nhau 
+        - Muon tao ra ngoi nha, thi phai co ban tk ngoi nha => class House
+        - trong ngoi nha co cac thanh phan => thuoc tinh : property
+        - su dung cac thanh phan do nhu the nao => method (xay tang 1, xay nha kho)
+        - instance = nha that (hien thuc cai nha ra chi tiet, voi nhung thuoc tinh ma dc de cap)
+
+    vd : 
+    - Cho:
+        - Class Dog : 
+            properties :   
+                - long
+                - Giong
+                - chieu cao
+                - can nang 
+            methods :
+                - run();
+                - eat();
+                - bark();
+                - sleep();
+            
+            Co the the hien cac con cho khau nha: phu quoc, muc, husky
+
+    - Nhan vat game: 
+        - Class GameActor:
+            properties : 
+                - nameActor
+                - imageActor
+                - colorActor
+                - speedActor
+                - armorActor
+            
+            methods : 
+                - skill1();
+                - skill2();
+                - skill3();
+                - skill4();
+                - skill5();
+
+    - Instance: chinh la cac doi tuong su dung class GameActor dxe hien thuc
+        Vd: 
+            Leesin:
+                properties:
+                    Leesin,
+                    abc.jpg,
+                    red,
+                    138,
+                    137
+                
+                methods:
+                    skill1() - No Long cuoc
+                    skill2() - skill2
+                    skill3() - skill3
+                    skill4() - skill4
+                    skill5() - skill5
+
+*** 4 dac diem cua lap trinh huong doi tuong:
+    encapsulation, abstraction, inheritance, and polymorphism
+
+    - abstraction (TRUU TUONG):     
+        + la viec xac dinh nhung thuoc tinh phuong thuc can thiet ke trong class
+    - inheritance (KE THUA): 
+        + lop nay co the ke thua tu lop kia cac phuong thuc cua lop kia
+        + extend
+    - polymorphism (DA HINH): 
+        + viet lai cac thuoc tinh va phuong thuc cua lop khac
+    - encapsulation (DONG GOI): 
+        + tinh chat cho phep nguoi dung hay doi tuong khac thay doi dl cua dt hien Tai
+        + acccess modifier
+        + static
+
+    Dinh nghia class: thuoc tinh, phuong thuoc (constructor, getter, setter, ...)
