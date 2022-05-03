@@ -83,11 +83,19 @@ Tai sao can ham co tham so:
 
     -- Mot cach khai bao khac cua Anonymous function: 
         /**
-        * Mot cach khai bao khac cua Anonymous function -- gan giong voi arrow function cua js
+        * Mot cach khai bao khac cua Anonymous function 
         * tach khai bao tham so va kieu gia tri tra ve sang mot ben 
         * Con lai ben trong xu ly nhu cu, moi thao tac nhu cu
         */
         let g_demo_anony_func: (x: number, y: string) => string = function(x,y) {
 
             return `Chao ${y}, nam nay ban ${x} tuoi co phai khong ?`;       
+        }
+
+    -- Arrow Function trong ts:
+        /**
+        * Arrow Function trong ts
+        */
+        var h = (x: number, y: number) : number => {
+            return x +y;
         }

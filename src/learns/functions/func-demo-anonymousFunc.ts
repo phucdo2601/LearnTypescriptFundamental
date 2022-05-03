@@ -7,7 +7,7 @@ let x_demo_anony_func = function(x: number, y: string) : string {
 }
 
 /**
- * Mot cach khai bao khac cua Anonymous function -- gan giong voi arrow function
+ * Mot cach khai bao khac cua Anonymous function
  * tach khai bao tham so va kieu gia tri tra ve sang mot ben 
  * Con lai ben trong xu ly nhu cu, moi thao tac nhu cu
  * Khai bao interface (khai bao kieu so do) -- khai bao cac kieu gia tri ben trai truoc; sau do moi khai bao ham
