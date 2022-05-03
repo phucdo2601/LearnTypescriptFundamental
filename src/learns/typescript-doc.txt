@@ -1,3 +1,21 @@
+- Cach khoi tao mot du typescrpit basic: https://drive.google.com/file/d/1cmUgPeMy9F5csJ19PgsI8wC_HI6PolDw/view
+        - Cài đặt npm packages
+            # using yarn
+            yarn global add typescript ts-node ts-lib @types/node
+            # using npm
+            npm i -g typescript ts-node ts-lib @types/node  
+
+        - Cài đặt unit test
+            # using yarn
+            yarn add --dev jest typescript ts-jest @types/jest
+            yarn ts-jest config:init
+            # using npm
+            npm install --save-dev jest typescript ts-jest @types/jest
+            npx ts-jest config:init
+
+        - Khởi tạo file tsconfig.json mặc định
+            tsc --init
+
 chay file typescript(.ts) bang cau lenh nay: 
 -C1: ts-node ten-file.ts (phai cho dung thu muc chua ten file do)
 -C2: tsc ten-file.ts (phai cho dung thu muc chua ten file do) - cau lenh nay de typescrpit complie ra js
