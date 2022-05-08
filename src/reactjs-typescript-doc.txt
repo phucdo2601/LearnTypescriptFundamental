@@ -1,0 +1,102 @@
+- create reactjs with typescript tempplate:
+    npx create-react-app my-app --template typescript
+    yarn create react-app my-app --template typescript
+
+- adding typescript on an existing reactjs project:
+    npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+    yarn add typescript @types/node @types/react @types/react-dom @types/jest
+
+/**
+ * any: Day la kieu du lieu ma muon dat bat ky kieu nao trong js vo cung dc
+ */
+let name: any;
+/**
+ * Bien age trong truong hop nay co the la kieu number hoac string
+ */
+let age: number | string;
+let isStudent: boolean;
+let hobbies: string[];
+let role: [number, string];
+
+let printName : (name: string) => void;
+
+
+/**
+ * Khai bao function trong typescript, cach 1
+ */
+// function printName(name: string) {
+//   console.log(name);
+// }
+
+// printName("PhucDn");
+
+// role = [1, "admin"];
+
+/**
+ * type trong ts co the hieu la type hoac interface
+ */
+// type Person = {
+//   name: string;
+//   /**
+//    * Them dau ? dang sau ten bien dc hieu la optional, co cung dc ko cung dc
+//    */
+//   age?: number;
+// }
+
+// let person: Person = {
+//   name : "Phucdn",
+// };
+
+// let lotsOfPeople = Person[];
+
+/**
+ * Khai bao interface trong ts, cach 1:
+ */
+interface Person {
+  name: string;
+  age?: number;
+}
+
+/**
+ * Khai bao interface trong ts, cach 2
+ */
+type X = {
+  a:string;
+  b?: number;
+}
+
+/**
+ * Thua ke interface trong ts => cac param trong inter cha se 
+ * xuat hien trong inte cua param con
+ * interface Y ke thua interface X
+ * Cu phap type Y = X & {}
+ */
+type Y = X & {
+  c: string;
+  d: number;
+}
+
+/**
+ * Khai bao instance trong ts
+ */
+let y:Y = {
+  a: "PhucDn",
+  // b:22,
+  c: "Ho Chi Minh",
+  d: 23,
+}
+
+interface Guy extends Person {
+  proffession : string;
+}
+
+/**
+ * Khai bao instance trong ts
+ */
+let testGuy01: Guy = {
+  name: "Do Ngoc Phuc",
+  age : 22,
+  proffession: "Software Engineer"
+}
+
+console.log(testGuy01);
