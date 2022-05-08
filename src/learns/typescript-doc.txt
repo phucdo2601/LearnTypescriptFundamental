@@ -292,3 +292,12 @@ Tai sao can ham co tham so:
 
 ** Abstract method la mot ban thiet ke cho function:
     Khi khai babo abstract method thi khong co code ben trong, chi viet va kieu du lieu
+
+
+    ** Generic trong lap tring ts:
+        - hieu don gian la cach khai bao ham nhung khong can chi ra kieu du lieu cua doi so va cua chinh Ham
+        - Vi khong can chi ra nen generic viet mot lan se dc nhieu tac dung
+        - Nhan vao gia tri nhu ham bth
+        - Nhan vao ca kieu du lieu nua
+        Cach khai bao kieu generic:
+            1. su dung dau <T> de lam ky hieu generic
