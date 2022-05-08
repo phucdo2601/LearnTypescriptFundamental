@@ -276,3 +276,19 @@ Tai sao can ham co tham so:
         1. khai bao ten cua phan tu: private _ten : dataType (phai coi dau _ o dau ten thuocc tinh)
         2. dung 2 ham getter ba setter:
             Ten cua ham khong co _
+
+
+**Abstract trong ts:
+    - class la thiet ke cua doi tuong
+    - Abstract class la ban thiet ke cua class 
+    Tai sao phai su dung Abstract:
+        - abstract giup nguoi lap trinh hinh dung ra chuc nang quan trong cua mot class ma khong can phan tan suy nghi chi tiet
+        - Abstract la su dung nang cao o muc thiet ke class, co the dung hoac ko dung 
+        - Khong the tao ra mot doi tuong tu abstract class dc 
+
+        Quy trinh: 
+            - khai bao mot abstract class 
+            - muon su dung thi khai bao mot class khac r ke thua class do
+
+** Abstract method la mot ban thiet ke cho function:
+    Khi khai babo abstract method thi khong co code ben trong, chi viet va kieu du lieu
