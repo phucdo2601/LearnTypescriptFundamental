@@ -301,3 +301,26 @@ Tai sao can ham co tham so:
         - Nhan vao ca kieu du lieu nua
         Cach khai bao kieu generic:
             1. su dung dau <T> de lam ky hieu generic
+
+
+** Interface trong typescript: 
+    - interface la giao dien 
+    - giao dien la phan the hien ben ngoai cua chuc nang
+    - Giao dien co biet chuc nang hoat dong the nao, nhung khong cho biet chi tiet ben trong 
+
+    Tai sao can dung interface:
+        khi lam viec nhom, thi leader can phai ve ra cac chuc nang chi tiet cho cac class cac ham de dam bao tinh he thong cua chuong trinh
+        * Dinh nghia kieu du lieu hoac gom nhom cac kieu du lieu
+        * De them dau cham hoi xau ten du lieu, chi ra rang bien do co the co hoac khong
+
+    ** Interface class: la khi interface ap dung cho class dong vai tro nhu mot quy chuan cho class
+        * Quy dinh khi co mot class tao tu interface nay, 
+        * thi class do phai co toi thieu cac thuoc tinh va cac ham cua interface impl
+
+** Namespace va export 
+    * Tac dung: dat ten class khong so trung voi tu khoa he thong
+    * Quan ly theo mot nhom goi la module co he thong
+    Cach su dung: 
+        - gom het cac class vao ben trong cai goi module 
+        - dung den class nao thi su dung tu khoa export truoc class do
+        - Khi goi thi goi new tenModule.tenClass();
